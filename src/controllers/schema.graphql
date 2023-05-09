@@ -6,6 +6,17 @@ The input/output is a string in RFC3339 format.
 """
 scalar DateTime
 
+type EventInstance0 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 type EventInstance1 {
 	title: String!
 	description: String!
@@ -29,6 +40,83 @@ type EventInstance2 {
 }
 
 type EventInstance3 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance4 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance5 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance6 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance7 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance8 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance9 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput0 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -72,19 +160,99 @@ input EventInstanceCreateInput3 {
 	guestMaxCount: Int
 }
 
+input EventInstanceCreateInput4 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput5 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput6 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput7 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput8 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput9 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 
 
 
 type Mutation {
+	create0(input: EventInstanceCreateInput0!): EventInstance0!
 	create1(input: EventInstanceCreateInput1!): EventInstance1!
 	create2(input: EventInstanceCreateInput2!): EventInstance2!
 	create3(input: EventInstanceCreateInput3!): EventInstance3!
+	create4(input: EventInstanceCreateInput4!): EventInstance4!
+	create5(input: EventInstanceCreateInput5!): EventInstance5!
+	create6(input: EventInstanceCreateInput6!): EventInstance6!
+	create7(input: EventInstanceCreateInput7!): EventInstance7!
+	create8(input: EventInstanceCreateInput8!): EventInstance8!
+	create9(input: EventInstanceCreateInput9!): EventInstance9!
 }
 
 type Query {
+	eventInstances0: [EventInstance0!]!
 	eventInstances1: [EventInstance1!]!
 	eventInstances2: [EventInstance2!]!
 	eventInstances3: [EventInstance3!]!
+	eventInstances4: [EventInstance4!]!
+	eventInstances5: [EventInstance5!]!
+	eventInstances6: [EventInstance6!]!
+	eventInstances7: [EventInstance7!]!
+	eventInstances8: [EventInstance8!]!
+	eventInstances9: [EventInstance9!]!
 }
 
 
