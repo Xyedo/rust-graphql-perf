@@ -2,7 +2,7 @@ mod controllers;
 
 use async_graphql::{
     http::{playground_source, GraphQLPlaygroundConfig},
-    EmptyMutation, EmptySubscription, ObjectType, Request, Response, Schema,
+    EmptySubscription, ObjectType, Request, Response, Schema,
     SubscriptionType,
 };
 use axum::{
@@ -13,18 +13,18 @@ use axum::{
     Router, Server,
 };
 use async_graphql_axum::{GraphQLRequest, GraphQLResponse};
-use controllers::Query;
+use controllers::{Query, Mutation};
 
 #[tokio::main]
 async fn main() -> Result<(), anyhow::Error>{
-    let schema = Schema::build(Query, EmptyMutation, EmptySubscription).finish();
+    let schema = Schema::build(Query::default(), Mutation::default(), EmptySubscription).finish();
     let app = App{schema};
     std::fs::write("schema.graphql", app.sdl())?;
 
     let graphql_http = Router::new()
         .route(
             "/graphql",
-            get(graphql_playground).post(graphql_handler::<Query, EmptyMutation, EmptySubscription>),
+            get(graphql_playground).post(graphql_handler::<Query, Mutation, EmptySubscription>),
         )
         .layer(Extension(app));
     let health = Router::new().route("/health", get(health));

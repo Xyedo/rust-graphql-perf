@@ -2,11 +2,16 @@
 
 
 
+type Mutation {
+	create: Boolean!
+}
+
 type Query {
-	howdy: String!
+	sayHi: String!
 }
 
 
 schema {
 	query: Query
+	mutation: Mutation
 }
