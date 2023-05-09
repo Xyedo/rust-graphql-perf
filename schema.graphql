@@ -1,0 +1,12 @@
+
+
+
+
+type Query {
+	howdy: String!
+}
+
+
+schema {
+	query: Query
+}

@@ -1,0 +1,21 @@
+[package]
+name = "rust-graphql-perf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-graphql = { version = "5.0.6", features = [
+    "uuid08",
+    "chrono",
+    "dataloader",
+] }
+async-graphql-axum = "5.0.6"
+axum = "0.6.11"
+tokio = { version = "1.25.0", default-features = false, features = ["full"] }
+uuid = { version = "0.8.2", features = ["serde", "v4"] }
+chrono = { version = "0.4.23", features = ["serde"] }
+serde = "1.0.152"
+serde_json = "1.0.93"
+anyhow = "1.0.69"
