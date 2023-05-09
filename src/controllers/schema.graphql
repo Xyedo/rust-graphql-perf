@@ -39,28 +39,6 @@ type EventInstance3 {
 	guestMaxCount: Int
 }
 
-type EventInstance4 {
-	title: String!
-	description: String!
-	fromDate: DateTime!
-	toDate: DateTime!
-	startTransitionMins: Int!
-	endTransitionMins: Int!
-	guestMinCount: Int
-	guestMaxCount: Int
-}
-
-type EventInstance5 {
-	title: String!
-	description: String!
-	fromDate: DateTime!
-	toDate: DateTime!
-	startTransitionMins: Int!
-	endTransitionMins: Int!
-	guestMinCount: Int
-	guestMaxCount: Int
-}
-
 input EventInstanceCreateInput1 {
 	title: String!
 	description: String!
@@ -94,28 +72,6 @@ input EventInstanceCreateInput3 {
 	guestMaxCount: Int
 }
 
-input EventInstanceCreateInput4 {
-	title: String!
-	description: String!
-	fromDate: DateTime!
-	toDate: DateTime!
-	startTransitionMins: Int!
-	endTransitionMins: Int!
-	guestMinCount: Int
-	guestMaxCount: Int
-}
-
-input EventInstanceCreateInput5 {
-	title: String!
-	description: String!
-	fromDate: DateTime!
-	toDate: DateTime!
-	startTransitionMins: Int!
-	endTransitionMins: Int!
-	guestMinCount: Int
-	guestMaxCount: Int
-}
-
 
 
 
@@ -123,16 +79,12 @@ type Mutation {
 	create1(input: EventInstanceCreateInput1!): EventInstance1!
 	create2(input: EventInstanceCreateInput2!): EventInstance2!
 	create3(input: EventInstanceCreateInput3!): EventInstance3!
-	create4(input: EventInstanceCreateInput4!): EventInstance4!
-	create5(input: EventInstanceCreateInput5!): EventInstance5!
 }
 
 type Query {
 	eventInstances1: [EventInstance1!]!
 	eventInstances2: [EventInstance2!]!
 	eventInstances3: [EventInstance3!]!
-	eventInstances4: [EventInstance4!]!
-	eventInstances5: [EventInstance5!]!
 }
 
 
