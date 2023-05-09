@@ -1,5 +1,6 @@
+mod controllers;
+
 use async_graphql::{
-    Object,
     http::{playground_source, GraphQLPlaygroundConfig},
     EmptyMutation, EmptySubscription, ObjectType, Request, Response, Schema,
     SubscriptionType,
@@ -12,16 +13,7 @@ use axum::{
     Router, Server,
 };
 use async_graphql_axum::{GraphQLRequest, GraphQLResponse};
-
-#[derive(Clone)]
-struct Query;
-
-#[Object]
-impl Query {
-  async fn howdy(&self) -> &'static str {
-    "partner"
-  }
-}
+use controllers::Query;
 
 #[tokio::main]
 async fn main() -> Result<(), anyhow::Error>{
