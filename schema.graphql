@@ -1,13 +1,42 @@
 
+"""
+Implement the DateTime<Utc> scalar
+
+The input/output is a string in RFC3339 format.
+"""
+scalar DateTime
+
+type EventInstance {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 
 
 
 type Mutation {
-	create: Boolean!
+	create(input: EventInstanceCreateInput!): EventInstance!
 }
 
 type Query {
-	sayHi: String!
+	eventInstances: [EventInstance!]!
 }
 
 
