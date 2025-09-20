@@ -1,4 +1,3 @@
-
 """
 Implement the DateTime<Utc> scalar
 
@@ -28,7 +27,227 @@ type EventInstance1 {
 	guestMaxCount: Int
 }
 
+type EventInstance10 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance11 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance12 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance13 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance14 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance15 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance16 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance17 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance18 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance19 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 type EventInstance2 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance20 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance21 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance22 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance23 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance24 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance25 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance26 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance27 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance28 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance29 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -50,7 +269,227 @@ type EventInstance3 {
 	guestMaxCount: Int
 }
 
+type EventInstance30 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance31 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance32 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance33 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance34 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance35 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance36 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance37 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance38 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance39 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 type EventInstance4 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance40 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance41 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance42 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance43 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance44 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance45 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance46 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance47 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance48 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance49 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -72,7 +511,227 @@ type EventInstance5 {
 	guestMaxCount: Int
 }
 
+type EventInstance50 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance51 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance52 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance53 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance54 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance55 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance56 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance57 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance58 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance59 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 type EventInstance6 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance60 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance61 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance62 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance63 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance64 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance65 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance66 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance67 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance68 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance69 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -94,6 +753,116 @@ type EventInstance7 {
 	guestMaxCount: Int
 }
 
+type EventInstance70 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance71 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance72 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance73 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance74 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance75 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance76 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance77 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance78 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance79 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 type EventInstance8 {
 	title: String!
 	description: String!
@@ -105,7 +874,227 @@ type EventInstance8 {
 	guestMaxCount: Int
 }
 
+type EventInstance80 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance81 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance82 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance83 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance84 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance85 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance86 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance87 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance88 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance89 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 type EventInstance9 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance90 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance91 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance92 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance93 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance94 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance95 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance96 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance97 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance98 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+type EventInstance99 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -138,7 +1127,227 @@ input EventInstanceCreateInput1 {
 	guestMaxCount: Int
 }
 
+input EventInstanceCreateInput10 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput11 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput12 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput13 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput14 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput15 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput16 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput17 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput18 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput19 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 input EventInstanceCreateInput2 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput20 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput21 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput22 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput23 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput24 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput25 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput26 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput27 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput28 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput29 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -160,7 +1369,227 @@ input EventInstanceCreateInput3 {
 	guestMaxCount: Int
 }
 
+input EventInstanceCreateInput30 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput31 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput32 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput33 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput34 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput35 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput36 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput37 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput38 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput39 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 input EventInstanceCreateInput4 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput40 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput41 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput42 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput43 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput44 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput45 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput46 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput47 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput48 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput49 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -182,7 +1611,227 @@ input EventInstanceCreateInput5 {
 	guestMaxCount: Int
 }
 
+input EventInstanceCreateInput50 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput51 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput52 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput53 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput54 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput55 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput56 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput57 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput58 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput59 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 input EventInstanceCreateInput6 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput60 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput61 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput62 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput63 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput64 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput65 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput66 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput67 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput68 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput69 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -204,7 +1853,227 @@ input EventInstanceCreateInput7 {
 	guestMaxCount: Int
 }
 
+input EventInstanceCreateInput70 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput71 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput72 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput73 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput74 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput75 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput76 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput77 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput78 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput79 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
 input EventInstanceCreateInput8 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput80 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput81 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput82 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput83 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput84 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput85 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput86 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput87 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput88 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput89 {
 	title: String!
 	description: String!
 	fromDate: DateTime!
@@ -226,8 +2095,115 @@ input EventInstanceCreateInput9 {
 	guestMaxCount: Int
 }
 
+input EventInstanceCreateInput90 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
 
+input EventInstanceCreateInput91 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
 
+input EventInstanceCreateInput92 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput93 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput94 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput95 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput96 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput97 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput98 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
+
+input EventInstanceCreateInput99 {
+	title: String!
+	description: String!
+	fromDate: DateTime!
+	toDate: DateTime!
+	startTransitionMins: Int!
+	endTransitionMins: Int!
+	guestMinCount: Int
+	guestMaxCount: Int
+}
 
 type Mutation {
 	create0(input: EventInstanceCreateInput0!): EventInstance0!
@@ -240,6 +2216,96 @@ type Mutation {
 	create7(input: EventInstanceCreateInput7!): EventInstance7!
 	create8(input: EventInstanceCreateInput8!): EventInstance8!
 	create9(input: EventInstanceCreateInput9!): EventInstance9!
+	create10(input: EventInstanceCreateInput10!): EventInstance10!
+	create11(input: EventInstanceCreateInput11!): EventInstance11!
+	create12(input: EventInstanceCreateInput12!): EventInstance12!
+	create13(input: EventInstanceCreateInput13!): EventInstance13!
+	create14(input: EventInstanceCreateInput14!): EventInstance14!
+	create15(input: EventInstanceCreateInput15!): EventInstance15!
+	create16(input: EventInstanceCreateInput16!): EventInstance16!
+	create17(input: EventInstanceCreateInput17!): EventInstance17!
+	create18(input: EventInstanceCreateInput18!): EventInstance18!
+	create19(input: EventInstanceCreateInput19!): EventInstance19!
+	create20(input: EventInstanceCreateInput20!): EventInstance20!
+	create21(input: EventInstanceCreateInput21!): EventInstance21!
+	create22(input: EventInstanceCreateInput22!): EventInstance22!
+	create23(input: EventInstanceCreateInput23!): EventInstance23!
+	create24(input: EventInstanceCreateInput24!): EventInstance24!
+	create25(input: EventInstanceCreateInput25!): EventInstance25!
+	create26(input: EventInstanceCreateInput26!): EventInstance26!
+	create27(input: EventInstanceCreateInput27!): EventInstance27!
+	create28(input: EventInstanceCreateInput28!): EventInstance28!
+	create29(input: EventInstanceCreateInput29!): EventInstance29!
+	create30(input: EventInstanceCreateInput30!): EventInstance30!
+	create31(input: EventInstanceCreateInput31!): EventInstance31!
+	create32(input: EventInstanceCreateInput32!): EventInstance32!
+	create33(input: EventInstanceCreateInput33!): EventInstance33!
+	create34(input: EventInstanceCreateInput34!): EventInstance34!
+	create35(input: EventInstanceCreateInput35!): EventInstance35!
+	create36(input: EventInstanceCreateInput36!): EventInstance36!
+	create37(input: EventInstanceCreateInput37!): EventInstance37!
+	create38(input: EventInstanceCreateInput38!): EventInstance38!
+	create39(input: EventInstanceCreateInput39!): EventInstance39!
+	create40(input: EventInstanceCreateInput40!): EventInstance40!
+	create41(input: EventInstanceCreateInput41!): EventInstance41!
+	create42(input: EventInstanceCreateInput42!): EventInstance42!
+	create43(input: EventInstanceCreateInput43!): EventInstance43!
+	create44(input: EventInstanceCreateInput44!): EventInstance44!
+	create45(input: EventInstanceCreateInput45!): EventInstance45!
+	create46(input: EventInstanceCreateInput46!): EventInstance46!
+	create47(input: EventInstanceCreateInput47!): EventInstance47!
+	create48(input: EventInstanceCreateInput48!): EventInstance48!
+	create49(input: EventInstanceCreateInput49!): EventInstance49!
+	create50(input: EventInstanceCreateInput50!): EventInstance50!
+	create51(input: EventInstanceCreateInput51!): EventInstance51!
+	create52(input: EventInstanceCreateInput52!): EventInstance52!
+	create53(input: EventInstanceCreateInput53!): EventInstance53!
+	create54(input: EventInstanceCreateInput54!): EventInstance54!
+	create55(input: EventInstanceCreateInput55!): EventInstance55!
+	create56(input: EventInstanceCreateInput56!): EventInstance56!
+	create57(input: EventInstanceCreateInput57!): EventInstance57!
+	create58(input: EventInstanceCreateInput58!): EventInstance58!
+	create59(input: EventInstanceCreateInput59!): EventInstance59!
+	create60(input: EventInstanceCreateInput60!): EventInstance60!
+	create61(input: EventInstanceCreateInput61!): EventInstance61!
+	create62(input: EventInstanceCreateInput62!): EventInstance62!
+	create63(input: EventInstanceCreateInput63!): EventInstance63!
+	create64(input: EventInstanceCreateInput64!): EventInstance64!
+	create65(input: EventInstanceCreateInput65!): EventInstance65!
+	create66(input: EventInstanceCreateInput66!): EventInstance66!
+	create67(input: EventInstanceCreateInput67!): EventInstance67!
+	create68(input: EventInstanceCreateInput68!): EventInstance68!
+	create69(input: EventInstanceCreateInput69!): EventInstance69!
+	create70(input: EventInstanceCreateInput70!): EventInstance70!
+	create71(input: EventInstanceCreateInput71!): EventInstance71!
+	create72(input: EventInstanceCreateInput72!): EventInstance72!
+	create73(input: EventInstanceCreateInput73!): EventInstance73!
+	create74(input: EventInstanceCreateInput74!): EventInstance74!
+	create75(input: EventInstanceCreateInput75!): EventInstance75!
+	create76(input: EventInstanceCreateInput76!): EventInstance76!
+	create77(input: EventInstanceCreateInput77!): EventInstance77!
+	create78(input: EventInstanceCreateInput78!): EventInstance78!
+	create79(input: EventInstanceCreateInput79!): EventInstance79!
+	create80(input: EventInstanceCreateInput80!): EventInstance80!
+	create81(input: EventInstanceCreateInput81!): EventInstance81!
+	create82(input: EventInstanceCreateInput82!): EventInstance82!
+	create83(input: EventInstanceCreateInput83!): EventInstance83!
+	create84(input: EventInstanceCreateInput84!): EventInstance84!
+	create85(input: EventInstanceCreateInput85!): EventInstance85!
+	create86(input: EventInstanceCreateInput86!): EventInstance86!
+	create87(input: EventInstanceCreateInput87!): EventInstance87!
+	create88(input: EventInstanceCreateInput88!): EventInstance88!
+	create89(input: EventInstanceCreateInput89!): EventInstance89!
+	create90(input: EventInstanceCreateInput90!): EventInstance90!
+	create91(input: EventInstanceCreateInput91!): EventInstance91!
+	create92(input: EventInstanceCreateInput92!): EventInstance92!
+	create93(input: EventInstanceCreateInput93!): EventInstance93!
+	create94(input: EventInstanceCreateInput94!): EventInstance94!
+	create95(input: EventInstanceCreateInput95!): EventInstance95!
+	create96(input: EventInstanceCreateInput96!): EventInstance96!
+	create97(input: EventInstanceCreateInput97!): EventInstance97!
+	create98(input: EventInstanceCreateInput98!): EventInstance98!
+	create99(input: EventInstanceCreateInput99!): EventInstance99!
 }
 
 type Query {
@@ -253,9 +2319,110 @@ type Query {
 	eventInstances7: [EventInstance7!]!
 	eventInstances8: [EventInstance8!]!
 	eventInstances9: [EventInstance9!]!
+	eventInstances10: [EventInstance10!]!
+	eventInstances11: [EventInstance11!]!
+	eventInstances12: [EventInstance12!]!
+	eventInstances13: [EventInstance13!]!
+	eventInstances14: [EventInstance14!]!
+	eventInstances15: [EventInstance15!]!
+	eventInstances16: [EventInstance16!]!
+	eventInstances17: [EventInstance17!]!
+	eventInstances18: [EventInstance18!]!
+	eventInstances19: [EventInstance19!]!
+	eventInstances20: [EventInstance20!]!
+	eventInstances21: [EventInstance21!]!
+	eventInstances22: [EventInstance22!]!
+	eventInstances23: [EventInstance23!]!
+	eventInstances24: [EventInstance24!]!
+	eventInstances25: [EventInstance25!]!
+	eventInstances26: [EventInstance26!]!
+	eventInstances27: [EventInstance27!]!
+	eventInstances28: [EventInstance28!]!
+	eventInstances29: [EventInstance29!]!
+	eventInstances30: [EventInstance30!]!
+	eventInstances31: [EventInstance31!]!
+	eventInstances32: [EventInstance32!]!
+	eventInstances33: [EventInstance33!]!
+	eventInstances34: [EventInstance34!]!
+	eventInstances35: [EventInstance35!]!
+	eventInstances36: [EventInstance36!]!
+	eventInstances37: [EventInstance37!]!
+	eventInstances38: [EventInstance38!]!
+	eventInstances39: [EventInstance39!]!
+	eventInstances40: [EventInstance40!]!
+	eventInstances41: [EventInstance41!]!
+	eventInstances42: [EventInstance42!]!
+	eventInstances43: [EventInstance43!]!
+	eventInstances44: [EventInstance44!]!
+	eventInstances45: [EventInstance45!]!
+	eventInstances46: [EventInstance46!]!
+	eventInstances47: [EventInstance47!]!
+	eventInstances48: [EventInstance48!]!
+	eventInstances49: [EventInstance49!]!
+	eventInstances50: [EventInstance50!]!
+	eventInstances51: [EventInstance51!]!
+	eventInstances52: [EventInstance52!]!
+	eventInstances53: [EventInstance53!]!
+	eventInstances54: [EventInstance54!]!
+	eventInstances55: [EventInstance55!]!
+	eventInstances56: [EventInstance56!]!
+	eventInstances57: [EventInstance57!]!
+	eventInstances58: [EventInstance58!]!
+	eventInstances59: [EventInstance59!]!
+	eventInstances60: [EventInstance60!]!
+	eventInstances61: [EventInstance61!]!
+	eventInstances62: [EventInstance62!]!
+	eventInstances63: [EventInstance63!]!
+	eventInstances64: [EventInstance64!]!
+	eventInstances65: [EventInstance65!]!
+	eventInstances66: [EventInstance66!]!
+	eventInstances67: [EventInstance67!]!
+	eventInstances68: [EventInstance68!]!
+	eventInstances69: [EventInstance69!]!
+	eventInstances70: [EventInstance70!]!
+	eventInstances71: [EventInstance71!]!
+	eventInstances72: [EventInstance72!]!
+	eventInstances73: [EventInstance73!]!
+	eventInstances74: [EventInstance74!]!
+	eventInstances75: [EventInstance75!]!
+	eventInstances76: [EventInstance76!]!
+	eventInstances77: [EventInstance77!]!
+	eventInstances78: [EventInstance78!]!
+	eventInstances79: [EventInstance79!]!
+	eventInstances80: [EventInstance80!]!
+	eventInstances81: [EventInstance81!]!
+	eventInstances82: [EventInstance82!]!
+	eventInstances83: [EventInstance83!]!
+	eventInstances84: [EventInstance84!]!
+	eventInstances85: [EventInstance85!]!
+	eventInstances86: [EventInstance86!]!
+	eventInstances87: [EventInstance87!]!
+	eventInstances88: [EventInstance88!]!
+	eventInstances89: [EventInstance89!]!
+	eventInstances90: [EventInstance90!]!
+	eventInstances91: [EventInstance91!]!
+	eventInstances92: [EventInstance92!]!
+	eventInstances93: [EventInstance93!]!
+	eventInstances94: [EventInstance94!]!
+	eventInstances95: [EventInstance95!]!
+	eventInstances96: [EventInstance96!]!
+	eventInstances97: [EventInstance97!]!
+	eventInstances98: [EventInstance98!]!
+	eventInstances99: [EventInstance99!]!
 }
 
-
+"""
+Directs the executor to include this field or fragment only when the `if` argument is true.
+"""
+directive @include(if: Boolean!) on FIELD | FRAGMENT_SPREAD | INLINE_FRAGMENT
+"""
+Directs the executor to skip this field or fragment when the `if` argument is true.
+"""
+directive @skip(if: Boolean!) on FIELD | FRAGMENT_SPREAD | INLINE_FRAGMENT
+"""
+Provides a scalar specification URL for specifying the behavior of custom scalar types.
+"""
+directive @specifiedBy(url: String!) on SCALAR
 schema {
 	query: Query
 	mutation: Mutation

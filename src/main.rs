@@ -2,23 +2,25 @@ mod controllers;
 
 use async_graphql::{
     http::{playground_source, GraphQLPlaygroundConfig},
-    EmptySubscription, ObjectType, Request, Response, Schema,
-    SubscriptionType,
+    EmptySubscription, ObjectType, Request, Response, Schema, SubscriptionType,
 };
+
+use async_graphql_axum::{GraphQLRequest, GraphQLResponse};
 use axum::{
     extract::Extension,
+    http::HeaderMap,
     response::{Html, IntoResponse},
-    http::{HeaderMap},
     routing::get,
-    Router, Server,
+    Router, serve,
 };
-use async_graphql_axum::{GraphQLRequest, GraphQLResponse};
-use controllers::{Query, Mutation};
+use controllers::{Mutation, Query};
+use tokio::net::TcpListener;
+
 
 #[tokio::main]
-async fn main() -> Result<(), anyhow::Error>{
+async fn main() -> Result<(), anyhow::Error> {
     let schema = Schema::build(Query::default(), Mutation::default(), EmptySubscription).finish();
-    let app = App{schema};
+    let app = App { schema };
     std::fs::write("schema.graphql", app.sdl())?;
 
     let graphql_http = Router::new()
@@ -33,9 +35,9 @@ async fn main() -> Result<(), anyhow::Error>{
 
     println!("Server started on port {}", "8080");
 
-    Server::bind(&([0, 0, 0, 0], 8080).into())
-        .serve(graphql_http.into_make_service())
-        .await?;
+
+    let listener = TcpListener::bind("0.0.0.0:8080").await.unwrap();
+    serve(listener, graphql_http.into_make_service()).await?;
 
     Ok(())
 }
@@ -64,7 +66,6 @@ where
     pub async fn execute(&self, _: HeaderMap, req: Request) -> Response {
         self.schema.execute(req).await
     }
-
 }
 
 pub async fn graphql_handler<TQuery, TMutation, TSubscription>(

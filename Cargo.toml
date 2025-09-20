@@ -6,13 +6,14 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-async-graphql = { version = "5.0.6", features = [
-    "uuid08",
+async-graphql = { version = "7.0.17", features = [
+    "uuid",
     "chrono",
     "dataloader",
+    "boxed-trait"
 ] }
-async-graphql-axum = "5.0.6"
-axum = "0.6.11"
+async-graphql-axum = "7"
+axum = "0.8.1"
 tokio = { version = "1.25.0", default-features = false, features = ["full"] }
 uuid = { version = "0.8.2", features = ["serde", "v4"] }
 chrono = { version = "0.4.23", features = ["serde"] }
@@ -21,3 +22,7 @@ serde_json = "1.0.93"
 anyhow = "1.0.69"
 paste = "1.0.11"
 getset = "0.1.2"
+
+[patch.crates-io]
+async-graphql = { git = "https://github.com/Xyedo/async-graphql.git", branch = "dyn-by-duplicate"}
+async-graphql-axum = { git = "https://github.com/Xyedo/async-graphql.git", branch = "dyn-by-duplicate", package = "async-graphql-axum" }
