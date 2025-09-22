@@ -26,3 +26,6 @@ getset = "0.1.2"
 [patch.crates-io]
 async-graphql = { git = "https://github.com/Xyedo/async-graphql.git", branch = "dyn-by-duplicate"}
 async-graphql-axum = { git = "https://github.com/Xyedo/async-graphql.git", branch = "dyn-by-duplicate", package = "async-graphql-axum" }
+
+[profile.dev]
+debug = 1

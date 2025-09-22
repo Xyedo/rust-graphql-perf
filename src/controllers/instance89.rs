@@ -77,6 +77,46 @@ pub struct EventInstance89 {
 pub trait IntoGQL { type Item; fn into_gql(self) -> Self::Item; }
 impl<M: IntoGQL, I: IntoIterator<Item = M>> IntoGQL for I { type Item = Vec<M::Item>; fn into_gql(self) -> Vec<M::Item> { self.into_iter().map(IntoGQL::into_gql).collect() } }
 
+// simpleObject macro: creates a small GraphQL wrapper with a couple fields
+macro_rules! simpleObject {
+	($ident:ident, $field1:ident: $t1:ty, $field2:ident: $t2:ty) => {
+		::paste::paste! {
+			#[derive(Clone)]
+			pub struct [<$ident Simple>] (pub $ident);
+
+			#[Object]
+			impl [<$ident Simple>] {
+				async fn $field1(&self) -> &$t1 {
+					&self.0.$field1
+				}
+
+				async fn $field2(&self) -> &$t2 {
+					&self.0.$field2
+				}
+			}
+		}
+	};
+}
+
+// complexObject macro: exposes more fields and different types to better simulate a real schema
+macro_rules! complexObject {
+	($ident:ident, { $($fname:ident: $fty:ty),* $(,)? }) => {
+		::paste::paste! {
+			#[derive(Clone)]
+			pub struct [<$ident Complex>] (pub $ident);
+
+			#[Object]
+			impl [<$ident Complex>] {
+				$(
+					async fn $fname(&self) -> $fty {
+						self.0.$fname()
+					}
+				)*
+			}
+		}
+	};
+}
+
 macro_rules! derive_graphql_wrapper { ($vis:vis $ident:ident) => { ::paste::paste! { pub struct [<$ident Object>] ($vis $ident); impl IntoGQL for $ident { type Item = [<$ident Object>]; fn into_gql(self) -> [<$ident Object>] { [<$ident Object>](self) } } } }; }
 
 derive_graphql_wrapper!(EventInstance89);
@@ -92,3 +132,14 @@ impl EventInstance89Object {
 	async fn guest_min_count(&self) -> Option<i16> { self.0.guest_min_count() }
 	async fn guest_max_count(&self) -> Option<i16> { self.0.guest_max_count() }
 }
+
+simpleObject!(EventInstance89, title: String, description: String);
+
+complexObject!(EventInstance89, {
+	from_date: DateTime<Utc>,
+	to_date: DateTime<Utc>,
+	start_transition_mins: i16,
+	end_transition_mins: i16,
+	guest_min_count: Option<i16>,
+	guest_max_count: Option<i16>
+});
