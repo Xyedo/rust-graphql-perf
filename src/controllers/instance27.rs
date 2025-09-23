@@ -1,7 +1,6 @@
-use async_graphql::{
-    InputObject,
-    Object,
-};
+use async_graphql::Context;
+use async_graphql::{ComplexObject, SimpleObject};
+use async_graphql::{InputObject, Object};
 use chrono::{DateTime, Utc};
 use getset::{CopyGetters, Getters};
 
@@ -9,11 +8,28 @@ use getset::{CopyGetters, Getters};
 pub struct EventInstanceQueries27;
 
 #[Object]
-impl EventInstanceQueries27{
+impl EventInstanceQueries27 {
+    async fn event_instances0_simple(
+        &self,
+        _ctx: &Context<'_>,
+    ) -> Result<Vec<EventInstance3Simple>, anyhow::Error> {
+        let ret = vec![EventInstance3Simple {
+            title: "a".to_string(),
+            description: "a".to_string(),
+            from_date: Utc::now(),
+            to_date: Utc::now(),
+            start_transition_mins: 0,
+            end_transition_mins: 1,
+            guest_min_count: None,
+            guest_max_count: None,
+        }];
+        Ok(ret)
+    }
     async fn event_instances27(
         &self,
+        _ctx: &Context<'_>,
     ) -> Result<Vec<EventInstance27Object>, anyhow::Error> {
-        let ret = vec![EventInstance27{
+        let ret = vec![EventInstance27 {
             title: "a".to_string(),
             description: "a".to_string(),
             from_date: Utc::now(),
@@ -31,12 +47,12 @@ impl EventInstanceQueries27{
 pub struct EventInstanceMutations27;
 
 #[Object]
-impl EventInstanceMutations27{
+impl EventInstanceMutations27 {
     async fn create27(
         &self,
         _input: EventInstanceCreateInput27,
     ) -> Result<EventInstance27Object, anyhow::Error> {
-        let ret = EventInstance27{
+        let ret = EventInstance27 {
             title: "a".to_string(),
             description: "a".to_string(),
             from_date: Utc::now(),
@@ -48,46 +64,6 @@ impl EventInstanceMutations27{
         };
         Ok(ret.into_gql())
     }
-}
-
-// simpleObject macro: creates a small GraphQL wrapper with a couple fields
-macro_rules! simpleObject {
-    ($ident:ident, $field1:ident: $t1:ty, $field2:ident: $t2:ty) => {
-        ::paste::paste! {
-            #[derive(Clone)]
-            pub struct [<$ident Simple>] (pub $ident);
-
-            #[Object]
-            impl [<$ident Simple>] {
-                async fn $field1(&self) -> &$t1 {
-                    &self.0.$field1
-                }
-
-                async fn $field2(&self) -> &$t2 {
-                    &self.0.$field2
-                }
-            }
-        }
-    };
-}
-
-// complexObject macro: exposes more fields and different types to better simulate a real schema
-macro_rules! complexObject {
-    ($ident:ident, { $($fname:ident: $fty:ty),* $(,)? }) => {
-        ::paste::paste! {
-            #[derive(Clone)]
-            pub struct [<$ident Complex>] (pub $ident);
-
-            #[Object]
-            impl [<$ident Complex>] {
-                $(
-                    async fn $fname(&self) -> $fty {
-                        self.0.$fname()
-                    }
-                )*
-            }
-        }
-    };
 }
 
 #[derive(InputObject)]
@@ -136,7 +112,6 @@ impl<M: IntoGQL, I: IntoIterator<Item = M>> IntoGQL for I {
     }
 }
 
-
 macro_rules! derive_graphql_wrapper {
     ($vis:vis $ident:ident) => {
         ::paste::paste! {
@@ -169,7 +144,7 @@ impl EventInstance27Object {
         self.0.from_date()
     }
 
-    async fn to_date(&self) -> DateTime<Utc>{
+    async fn to_date(&self) -> DateTime<Utc> {
         self.0.to_date()
     }
 
@@ -190,13 +165,30 @@ impl EventInstance27Object {
     }
 }
 
-simpleObject!(EventInstance27, title: String, description: String);
-
-complexObject!(EventInstance27, {
+#[derive(SimpleObject, Clone)]
+#[graphql(complex)]
+struct EventInstance3Simple {
+    title: String,
+    description: String,
     from_date: DateTime<Utc>,
     to_date: DateTime<Utc>,
     start_transition_mins: i16,
     end_transition_mins: i16,
     guest_min_count: Option<i16>,
-    guest_max_count: Option<i16>
-});
+    guest_max_count: Option<i16>,
+}
+
+#[ComplexObject]
+impl EventInstance3Simple {
+    async fn duration_dates(&self) -> i64 {
+        (self.to_date - self.from_date).num_days()
+    }
+
+    async fn is_all_day(&self) -> bool {
+        self.start_transition_mins == 0 && self.end_transition_mins == 1440
+    }
+
+    async fn summary(&self) -> String {
+        format!("{} ({} - {})", self.title, self.from_date, self.to_date)
+    }
+}

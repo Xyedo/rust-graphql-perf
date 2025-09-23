@@ -1,13 +1,5 @@
 mod instance0;
 mod instance1;
-mod instance2;
-mod instance3;
-mod instance4;
-mod instance5;
-mod instance6;
-mod instance7;
-mod instance8;
-mod instance9;
 mod instance10;
 mod instance11;
 mod instance12;
@@ -18,6 +10,7 @@ mod instance16;
 mod instance17;
 mod instance18;
 mod instance19;
+mod instance2;
 mod instance20;
 mod instance21;
 mod instance22;
@@ -28,6 +21,7 @@ mod instance26;
 mod instance27;
 mod instance28;
 mod instance29;
+mod instance3;
 mod instance30;
 mod instance31;
 mod instance32;
@@ -38,6 +32,7 @@ mod instance36;
 mod instance37;
 mod instance38;
 mod instance39;
+mod instance4;
 mod instance40;
 mod instance41;
 mod instance42;
@@ -48,6 +43,7 @@ mod instance46;
 mod instance47;
 mod instance48;
 mod instance49;
+mod instance5;
 mod instance50;
 mod instance51;
 mod instance52;
@@ -58,6 +54,7 @@ mod instance56;
 mod instance57;
 mod instance58;
 mod instance59;
+mod instance6;
 mod instance60;
 mod instance61;
 mod instance62;
@@ -68,6 +65,7 @@ mod instance66;
 mod instance67;
 mod instance68;
 mod instance69;
+mod instance7;
 mod instance70;
 mod instance71;
 mod instance72;
@@ -78,6 +76,7 @@ mod instance76;
 mod instance77;
 mod instance78;
 mod instance79;
+mod instance8;
 mod instance80;
 mod instance81;
 mod instance82;
@@ -88,6 +87,7 @@ mod instance86;
 mod instance87;
 mod instance88;
 mod instance89;
+mod instance9;
 mod instance90;
 mod instance91;
 mod instance92;
@@ -99,10 +99,7 @@ mod instance97;
 mod instance98;
 mod instance99;
 
-use async_graphql::{
-    MergedObject,
-};
-
+use async_graphql::MergedObject;
 
 #[derive(MergedObject, Default, Clone)]
 pub struct Query(
@@ -207,7 +204,6 @@ pub struct Query(
     instance98::EventInstanceQueries98,
     instance99::EventInstanceQueries99,
 );
-
 
 #[derive(MergedObject, Default, Clone)]
 pub struct Mutation(
